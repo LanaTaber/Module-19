@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Spectral+SC:wght@200&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral SC', serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body {
+    background-color: rgba(215, 209, 219, 0.891);
+}
+.inline-block {
+    display: inline-block;
+}
+/* navigation styles */
+.navigation nav {
+    float: right;
+    margin-top: 30px;
+}
+nav .navBtn {
+    margin: auto 10px;
+}
+.navBtn a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    height: 100px;
+    width: 100px;
+}
+/* hero section styles */
+.heroImg {
+    margin: auto;
+    width: 92%;
+}
+.content {
+    background-color: rgb(247, 244, 239);
+    width: 73%;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.494);
+}
+/* about me section styles */
+.avatar {
+    height: 623px;
+    width: 320px;
+}
+.about-me-container {
+    font-size: 20px;
+    width: 65%;
+    margin: 30px;
+}
+#signature {
+    width: 158.31px;
+    height: 49.5px;
+    float: right;
+}
+.download {
+    /* border-radius: 30%; */
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 15px;;
+    width:252px;
+    height: 35px;
+    background-color: #B191CD;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    overflow: hidden;
+    position: relative;
+}
+.download:focus {
+    outline: none;
+  }
+  /* button hover */
+  .download:hover{
+    transform: scale(1.2);
+  }
+  button .circle {
+    position: absolute;
+    background-color: #C661CB;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    animation: scale 0.5s ease-out;
+  }
+  /* animation */
+  @keyframes scale {
+    to {
+      transform: translate(-50%, -50%) scale(3);
+      opacity: 0;
+    }
+  }
+/* flex container styles */
+#mySkills {
+    text-align: center;
+}
+.flexContainer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+/* skills card styles */
+.skillsCards {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+}
+/* image container styles */
+.imgContainer img {
+    border-radius: 50%;
+    background-color: rgb(155, 145, 165);
+}
+.myWork {
+    width: 80%;
+    margin: auto;
+}
+/* My work section Styles */
+.projectCard {
+    display: flex;
+}
+/* Project 1 styles */
+.phone1 {
+    width: 130.79px;
+    height: 282.11px;
+}
+.project1 .description {
+    margin-left: 15px;
+}
+/* Project 2 styles */
+.project2 {
+    flex-direction: row-reverse;
+}
+.project2 .description {
+    width: 60%;
+}
+.project-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%
+}
+.groupPhone {
+    width: 383.79px;
+    height: 363.19px;
+}
+/* Project 3 styles */
+.phone3 {
+    width: 147px;
+    height: 300px;
+}
+.project3 .description {
+    width: 60%;
+    margin: 15px;
+}
+/* footer section styles */
+.footer {
+    text-align: center;
+}
+.footer li {
+    padding: 0 10px;
+    margin: 0 15px;
+    border-left: 2px solid rgba(0, 0, 0, 0.223);
+    border-right: 2px solid rgba(0, 0, 0, 0.223);
+    height: 10%;
+}
